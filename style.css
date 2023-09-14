@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background: rgb(36, 36, 36);
     color: white;
@@ -12,4 +16,13 @@ body {
 span {
     color: rgb(170, 46, 46);
     font-size: 25px;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.uhl {
+    font-size: 18px;
 }
